@@ -1,6 +1,6 @@
 import { readFileSync } from "fs";
 
-const day = 'day-nine';
+const day = 'day-eleven';
 
 const dayModule = await import(`./${day}`);
 const runPartOne: (allLines: string[]) => number = dayModule.runPartOne;
